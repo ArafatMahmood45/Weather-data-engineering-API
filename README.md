@@ -6,6 +6,12 @@ A lightweight data engineering project that processes historical weather station
 It demonstrates a simple data pipeline: **data ingestion → transformation → API serving**.
 
 ---
+## 🌐 Live Demo
+
+🔗 https://weather-data-engineering-api-1.onrender.com/
+
+You can access the deployed API here.
+---
 
 ## Tech Stack
 - Python
@@ -26,13 +32,13 @@ It demonstrates a simple data pipeline: **data ingestion → transformation → 
 ## API Endpoints
 
 **Get temperature by station and date**
-/api/v1/<station>/<date>/
+- /api/v1/<station>/<date>/
 
 **Get all data for a station**
-/api/v1/<station>/
+- /api/v1/<station>/
 
 **Get yearly data for a station**
-/api/v1/yearly/<station>/<year>/
+- /api/v1/yearly/<station>/<year>/
 
 
 ---
