@@ -31,13 +31,13 @@ It demonstrates a simple data pipeline: **data ingestion → transformation → 
 ## API Endpoints
 
 **Get temperature by station and date**
-- /api/v1/<station>/<date>/
+ `/api/v1/<station>/<date>/`
 
 **Get all data for a station**
-- /api/v1/<station>/
+ `/api/v1/<station>/`
 
 **Get yearly data for a station**
-- /api/v1/yearly/<station>/<year>/
+ `/api/v1/yearly/<station>/<year>/`
 
 
 ---
