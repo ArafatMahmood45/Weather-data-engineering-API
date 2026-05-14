@@ -10,7 +10,6 @@ It demonstrates a simple data pipeline: **data ingestion → transformation → 
 
 🔗 https://weather-data-engineering-api-1.onrender.com/
 
-You can access the deployed API here.
 ---
 
 ## Tech Stack
