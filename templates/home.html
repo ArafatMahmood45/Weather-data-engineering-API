@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Data API</title>
+</head>
+<body>
+
+<h1>Weather Data API Documentation</h1>
+
+<p>This API provides access to historical weather station data.</p>
+
+<hr>
+
+<div>
+    <h2>1. Get Temperature for a Specific Station and Date</h2>
+    <p><b>Endpoint:</b> /api/v1/&lt;station&gt;/&lt;date&gt;/</p>
+    <p><b>Example:</b> /api/v1/1/1860-05-12/</p>
+    <p>Returns the temperature recorded at a station on a specific date.</p>
+</div>
+
+<hr>
+
+<div>
+    <h2>2. Get All Data for a Station</h2>
+    <p><b>Endpoint:</b> /api/v1/&lt;station&gt;/</p>
+    <p><b>Example:</b> /api/v1/10/</p>
+    <p>Returns all available weather records for a station.</p>
+</div>
+
+<hr>
+
+<div>
+    <h2>3. Get Yearly Data for a Station</h2>
+    <p><b>Endpoint:</b> /api/v1/yearly/&lt;station&gt;/&lt;year&gt;/</p>
+    <p><b>Example:</b> /api/v1/yearly/10/1860/</p>
+    <p>Returns all weather data for a station filtered by year.</p>
+</div>
+
+<hr>
+
+<h2>Station Data Table</h2>
+{{ data | safe }}
+
+</body>
+</html>
